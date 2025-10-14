@@ -6,7 +6,7 @@ public class HealthSystem: MonoBehaviour
     public BarSystem HealthBar;
     public float CurrentHealth { get; private set; }
     public bool IsDead;
-    public static float DESTROYDELAY = 0.5f;
+    public const float DESTROYDELAY = 0.5f;
     public void Start() 
     {
         CurrentHealth = MaxHealth;
